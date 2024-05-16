@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+main{
+    width: 650px;
+    margin:32px auto 0 ;
+    background-color: yellow;
+}
+
+h1{
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 8px ;
+}
+
+h2{
+    font-size: 20px;
+}
+
+li{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.correct{
+    color:blue;
+}
+.correct::after{
+    content: ' - 正解！ ';
+}
+
+.wrong{
+    color:red;
+}
+
+.wrong::after{
+    content: ' - 不正解！ ';
+}
